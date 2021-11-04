@@ -1,0 +1,32 @@
+{
+  "name": "portfolio-server",
+  "version": "1.0.0",
+  "description": "Express Server to host portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --project ./"
+  },
+  "keywords": [
+    "express",
+    "portfolio"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^4.6.0",
+    "http-status-codes": "^2.1.4",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.2",
+    "@types/express": "^4.17.13",
+    "@types/morgan": "^1.9.3",
+    "@types/node": "^16.9.1",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
